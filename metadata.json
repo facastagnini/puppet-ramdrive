@@ -1,0 +1,18 @@
+{
+  "name": "puppet-ramdrive",
+  "version": "0.1.0",
+  "summary": "",
+  "author": "Federico Castagnini",
+  "description": "Administration of ram based mountpoints",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": "4.1.0"
+    },
+  ],
+  "types": [],
+  "checksums": {},
+  "source": "git@github.com:facastagnini/puppet-ramdrive.git",
+  "project_page": "http://castagnini.blogspot.com/",
+  "license": "ASL 2.0"
+}
