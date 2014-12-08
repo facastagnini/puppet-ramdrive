@@ -1,18 +1,41 @@
 {
-  "name": "puppet-ramdrive",
-  "version": "0.1.0",
-  "summary": "",
-  "author": "Federico Castagnini",
-  "description": "Administration of ram based mountpoints",
-  "dependencies": [
+ "operatingsystem_support": [
     {
-      "name": "puppetlabs/stdlib",
-      "version_requirement": "4.1.0"
+      "operatingsystem": "RedHat"
     },
+    {
+      "operatingsystem": "CentOS"
+    },
+    {
+      "operatingsystem": "Scientific"
+    },
+    {
+      "operatingsystem": "Debian"
+    },
+    {
+      "operatingsystem": "Ubuntu"
+    }
   ],
-  "types": [],
-  "checksums": {},
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": "3.x"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">=2.7.20 <4.0.0"
+    }
+  ],
+  "name": "facastagnini-ramdrive",
+  "version": "1.0.0",
+  "author": "Federico Castagnini",
+  "summary": "Administration of ram based mountpoints",
+  "license": "Apache Version 2.0",
   "source": "git@github.com:facastagnini/puppet-ramdrive.git",
-  "project_page": "http://castagnini.blogspot.com/",
-  "license": "ASL 2.0"
+  "project_page": "https://github.com/facastagnini/puppet-ramdrive",
+  "issues_url": null,
+  "description": "Administration of ram based mountpoints for Debian, Ubuntu, CentOS, RHEL, OEL, Fedora, ArchLinux and Gentoo.",
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 0.1.6"}
+  ]
 }
