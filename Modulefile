@@ -1,5 +1,5 @@
 name 'facastagnini-ramdrive'
-version '1.0.0'
+version '1.0.1'
 source 'git@github.com:facastagnini/puppet-ramdrive.git'
 author 'Federico Castagnini'
 license 'Apache Version 2.0'
