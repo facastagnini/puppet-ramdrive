@@ -5,9 +5,9 @@
 define ramdrive (
   $fstype  = 'tmpfs',
   $size    = '1G',
-  $mode    = '1777', 
-  $owner   = 'root', 
-  $group   = 'root', 
+  $mode    = '1777',
+  $owner   = 'root',
+  $group   = 'root',
   $recurse = false
 ) {
   $mountpoint = $name

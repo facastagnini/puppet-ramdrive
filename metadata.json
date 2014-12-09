@@ -1,5 +1,13 @@
 {
- "operatingsystem_support": [
+  "name": "facastagnini-ramdrive",
+  "version": "1.0.2",
+  "author": "Federico Castagnini",
+  "summary": "Administration of ram based mountpoints",
+  "license": "Apache 2.0",
+  "source": "git@github.com:facastagnini/puppet-ramdrive.git",
+  "project_page": "https://github.com/facastagnini/puppet-ramdrive",
+  "issues_url": "https://github.com/facastagnini/puppet-ramdrive/issues",
+  "operatingsystem_support": [
     {
       "operatingsystem": "RedHat"
     },
@@ -26,14 +34,6 @@
       "version_requirement": ">=2.7.20 <4.0.0"
     }
   ],
-  "name": "facastagnini-ramdrive",
-  "version": "1.0.1",
-  "author": "Federico Castagnini",
-  "summary": "Administration of ram based mountpoints",
-  "license": "Apache Version 2.0",
-  "source": "git@github.com:facastagnini/puppet-ramdrive.git",
-  "project_page": "https://github.com/facastagnini/puppet-ramdrive",
-  "issues_url": null,
   "description": "Administration of ram based mountpoints for Debian, Ubuntu, CentOS, RHEL, OEL, Fedora, ArchLinux and Gentoo.",
   "dependencies": [
     {"name":"puppetlabs/stdlib","version_requirement":">= 0.1.6"}
