@@ -1,6 +1,6 @@
 {
   "name": "facastagnini-ramdrive",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "author": "Federico Castagnini",
   "summary": "Administration of ram based mountpoints",
   "license": "Apache-2.0",
