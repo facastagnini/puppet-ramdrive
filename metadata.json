@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "author": "Federico Castagnini",
   "summary": "Administration of ram based mountpoints",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "source": "git@github.com:facastagnini/puppet-ramdrive.git",
   "project_page": "https://github.com/facastagnini/puppet-ramdrive",
   "issues_url": "https://github.com/facastagnini/puppet-ramdrive/issues",
