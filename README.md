@@ -1,7 +1,14 @@
 puppet-ramdrive
 ===============
 
-Create a ramdrive with puppet
+Create a ramdrive with puppet.
+
+In this times that we have to live in, it is more convenient/efficient to use RAM memory to do I/O intensive operations instead hitting the HDD, or wearing off our precious SSD drives.
+I wrote a simple yet useful puppet module to assist me in my every day tasks with RAM drives, I hope someone can use it too.
+
+###Instalation
+
+	puppet module install facastagnini-ramdrive
 
 ###How to use this module? ...Examples
 
