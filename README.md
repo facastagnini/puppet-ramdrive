@@ -1,7 +1,7 @@
 puppet-ramdrive
 ===============
 
-Create a ramdrive with puppet.
+Administration of ram based mountpoints.
 
 In this times that we have to live in, it is more convenient/efficient to use RAM memory to do I/O intensive operations instead hitting the HDD, or wearing off our precious SSD drives.
 I wrote a simple yet useful puppet module to assist me in my every day tasks with RAM drives, I hope someone can use it too.
@@ -15,6 +15,7 @@ I wrote a simple yet useful puppet module to assist me in my every day tasks wit
 	# logdir in ram
 	$log_path = '/var/log/ipsec'
 	ramdrive { $log_path:
+	  fstype     => 'tmpfs',
 	  size       => '100M',
 	  mode       => '0750',
 	  owner      => 'root',
@@ -31,6 +32,7 @@ I wrote a simple yet useful puppet module to assist me in my every day tasks wit
 	  "${project_dir}/app/storage/meta",
 	  "${project_dir}/app/storage/sessions",
 	  "${project_dir}/app/storage/views"]:
+	  fstype  => 'ramfs',
 	  size    => '50M',
 	  mode    => 0770,
 	  recurse => true,
